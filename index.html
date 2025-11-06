@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TravelEase - Find and book the perfect travel packages for your dream vacation">
+    <title>TravelEase - Your Perfect Travel Companion</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    TravelEase
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#packages">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 text-center text-white">
+                    <h1 class="display-4">Discover Your Dream Destination</h1>
+                    <p class="lead">Experience unforgettable journeys with our curated travel packages</p>
+                    <a href="#packages" class="btn btn-primary btn-lg">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2>About TravelEase</h2>
+                    <p class="lead">Your Journey, Our Priority</p>
+                </div>
+                <div class="col-md-8 mx-auto">
+                    <p>TravelEase is your trusted partner in creating unforgettable travel experiences. We specialize in curating the perfect travel packages that cater to your unique preferences and desires.</p>
+                    <p>Our mission is to make travel planning seamless and enjoyable, ensuring that every journey becomes a cherished memory. With years of expertise in the travel industry, we understand what makes a trip truly special.</p>
+                    <p>From luxurious getaways to adventurous expeditions, we handle all the details so you can focus on what matters most – enjoying your journey. Our dedicated team works tirelessly to ensure every aspect of your trip exceeds expectations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Popular Packages</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card package-card">
+                        <img src="images/goa.jpg" class="card-img-top" alt="Goa Beach Package">
+                        <div class="card-body">
+                            <h3 class="card-title">Goa Beach Paradise</h3>
+                            <p class="card-text">Experience the vibrant beaches and nightlife of Goa with our exclusive package.</p>
+                            <p class="price">From $599</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card package-card">
+                        <img src="images/dubai.jpg" class="card-img-top" alt="Dubai Luxury Package">
+                        <div class="card-body">
+                            <h3 class="card-title">Dubai Luxury Escape</h3>
+                            <p class="card-text">Discover the magic of Dubai with our luxury desert safari and city tour package.</p>
+                            <p class="price">From $1299</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card package-card">
+                        <img src="images/paris.jpg" class="card-img-top" alt="Paris Romance Package">
+                        <div class="card-body">
+                            <h3 class="card-title">Paris Romance</h3>
+                            <p class="card-text">Fall in love with the City of Light through our romantic Paris getaway package.</p>
+                            <p class="price">From $1499</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Clients Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="testimonial-card text-center">
+                            <p class="testimonial-text">"TravelEase made our honeymoon absolutely perfect! The attention to detail and service was exceptional."</p>
+                            <h5 class="client-name">Sarah & John</h5>
+                            <p class="client-info">Paris Package</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonial-card text-center">
+                            <p class="testimonial-text">"The Dubai package exceeded all our expectations. Everything was perfectly organized!"</p>
+                            <h5 class="client-name">Michael Rodriguez</h5>
+                            <p class="client-info">Dubai Package</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark text-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2025 TravelEase. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
